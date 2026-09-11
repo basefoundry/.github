@@ -1,32 +1,55 @@
 # Base Foundry
 
-> Developer tools for simpler local workflows, safer automation, and AI-ready
-> GitHub workspaces.
+> Open-source developer tools for teams that work across multiple Git
+> repositories.
 
-Base Foundry builds open-source foundations for repository setup, command-line
-applications, reliable shell automation, and evidence-backed handoffs between
-people and coding agents.
+Base Foundry makes local development more explicit and repeatable. Base
+coordinates repository setup, readiness, trusted execution, onboarding, and
+handoff, while companion libraries provide reusable foundations for Python CLIs
+and reliable Bash automation.
 
-## Choose your starting point
+## Start here
+
+Read [Why Base](https://github.com/basefoundry/base/blob/main/docs/why-base.md)
+for the short explanation, or inspect [Base Demo](https://github.com/basefoundry/base-demo)
+to see the workflow in a small working project. When the problem fits, start
+with [Base](https://github.com/basefoundry/base).
+
+## Choose a project
 
 | If you want to... | Start with |
 | --- | --- |
-| Make one or more GitHub repositories explicit, ready, and handoffable | [**Base**](https://github.com/basefoundry/base) — the local operating contract for setup, readiness, trust, and verified pull requests |
-| See Base applied to a compact, credible project | [**Base Demo**](https://github.com/basefoundry/base-demo) — the reference Base-managed project and interactive demo |
-| Build reliable Click or Typer applications | [**base-cli**](https://github.com/basefoundry/base-cli) — reusable lifecycle, configuration, logging, cleanup, and machine-readable contracts for Python CLIs |
-| Learn `base-cli` through a working consumer | [**base-cli-demo**](https://github.com/basefoundry/base-cli-demo) — the reference consumer and learning application |
-| Structure operational scripts that must remain in Bash | [**base-bash-libs**](https://github.com/basefoundry/base-bash-libs) — sourceable libraries for safe execution, logging, files, Git, cleanup, and CLI lifecycles |
+| Coordinate setup, readiness, trust, and handoff across repositories | [**Base**](https://github.com/basefoundry/base) — the local operating contract for GitHub-centered workspaces |
+| See Base applied to a working project | [**Base Demo**](https://github.com/basefoundry/base-demo) — the compact reference project and interactive walkthrough |
+| Build a production Python CLI with Click or Typer | [**base-cli**](https://github.com/basefoundry/base-cli) — reusable lifecycle, configuration, logging, cleanup, and machine-readable contracts |
+| Learn `base-cli` from a working consumer | [**base-cli-demo**](https://github.com/basefoundry/base-cli-demo) — an offline reference application |
+| Keep operational scripts in reliable Bash | [**base-bash-libs**](https://github.com/basefoundry/base-bash-libs) — sourceable libraries for execution, logging, files, Git, strings, and cleanup |
+| Learn `base-bash-libs` from a working consumer | [**base-bash-libs-demo**](https://github.com/basefoundry/base-bash-libs-demo) — an offline support-bundle collector |
 
 ## How the pieces fit
 
+```text
+Base (workspace operating contract)
+├── base-cli             Python CLI foundation
+├── base-bash-libs       Bash automation foundation
+└── reference consumers  base-demo, base-cli-demo, base-bash-libs-demo
+```
+
 Base coordinates repository-owned setup, verification, trust, and handoff
-without turning independent projects into a monorepo. `base-cli` and
-`base-bash-libs` provide reusable foundations for Python and Bash tooling, while
-the demo repositories make those boundaries inspectable in working examples.
+without turning independent projects into a monorepo. The companion libraries
+stay reusable outside Base, and the demo repositories show those boundaries in
+working applications.
 
 Across the ecosystem, we favor explicit contracts over hidden workstation
 state, inspection before mutation, composable tools with narrow ownership, and
 pull requests backed by reproducible evidence.
+
+## Supporting projects
+
+- [Homebrew Base](https://github.com/basefoundry/homebrew-base) packages Base and its reusable Bash libraries.
+- [Base Platform Tools](https://github.com/basefoundry/base-platform-tools) houses optional platform and operations utilities.
+- [Base Workspace](https://github.com/basefoundry/base-workspace) contains an example workspace manifest.
+- [Banyan Labs](https://github.com/basefoundry/banyanlabs) is the hands-on platform engineering and SRE lab.
 
 ## Explore and contribute
 
