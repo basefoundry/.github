@@ -4,7 +4,7 @@ Use the repository's README and documentation first, then choose the least
 expensive public path that fits the question:
 
 - For ecosystem-wide questions, adoption help, and usage discussion, use
-  [Base Discussions](https://github.com/basefoundry/base/discussions).
+  [Base Discussions](https://github.com/orgs/basefoundry/discussions).
 - For a reproducible defect in a repository that accepts issues, use its bug
   report form and include the version, environment, reproduction, expected
   result, and actual result.
@@ -20,4 +20,6 @@ credentials, personal data, or security-sensitive reports; use
 
 There is no guaranteed response time. Maintainers triage by reproducibility,
 impact, scope, and available capacity. A clear, minimal reproduction is the
-fastest way to get useful follow-up.
+fastest way to get useful follow-up. See the [community triage
+policy](https://github.com/basefoundry/base/blob/main/docs/community-triage.md)
+for labels, starter work, status transitions, and the monthly review cadence.
