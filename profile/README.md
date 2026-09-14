@@ -15,6 +15,9 @@ for the short explanation, or inspect [Base Demo](https://github.com/basefoundry
 to see the workflow in a small working project. When the problem fits, start
 with [Base](https://github.com/basefoundry/base).
 
+For the maintained repository roles, project chooser, support matrix, and
+compatibility boundaries, use the [Base Foundry Ecosystem Map](https://github.com/basefoundry/base/blob/main/docs/ecosystem-map.md).
+
 ## Choose a project
 
 | If you want to... | Start with |
@@ -60,3 +63,5 @@ pull requests backed by reproducible evidence.
 
 Each repository documents its own setup, support, contribution, release, and
 license contracts. Start with that repository's README before making changes.
+The ecosystem map is the shared orientation page when a question spans more
+than one repository.
