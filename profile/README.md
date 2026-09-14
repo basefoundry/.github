@@ -59,6 +59,7 @@ pull requests backed by reproducible evidence.
 - Browse all [Base Foundry repositories](https://github.com/orgs/basefoundry/repositories).
 - Follow roadmaps and active work in the public [GitHub Projects](https://github.com/orgs/basefoundry/projects).
 - Ask questions or share ideas in [Discussions](https://github.com/orgs/basefoundry/discussions).
+- Read the [community support](https://github.com/basefoundry/base/blob/main/docs/community-support.md) and [community triage](https://github.com/basefoundry/base/blob/main/docs/community-triage.md) guides before opening a public report.
 - Report an issue or propose a change in the repository that owns the relevant behavior.
 
 Each repository documents its own setup, support, contribution, release, and
